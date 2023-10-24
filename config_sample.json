@@ -1,0 +1,23 @@
+{
+  "logger": {
+    "stream_level": "trace",
+    "file_level": "info"
+  },
+  "service": {
+    "postgres": {
+      "host": "127.0.0.1",
+      "port": 5432,
+      "user": "araumi",
+      "password": "",
+      "database": "",
+      "min_size": 10,
+      "max_size": 10
+    },
+    "web_api": {
+      "token": ""
+    }
+  },
+  "strategy": {
+    "max_workers": 10
+  }
+}
